@@ -1,0 +1,103 @@
+@media only screen and (max-width: 600px){
+    
+    .tittle-components{
+        height: 20vh;
+    }
+
+    .cofre{
+        width: 45vw;
+        margin-top: 10vh;
+    }
+
+    .elemtn2{
+        display: none;
+    }
+
+    .projeto-components{
+        flex-direction: column;
+    }
+
+    .img-projeto{
+        width: 60vw;
+    }
+
+    .projeto-texts{
+        margin-left: 0vw;
+        text-align: justify;
+        margin-top: 5vh;
+        width: 70vw;
+        font-size: 4vw;
+        margin-bottom: 15vw;
+    }
+
+    .element1{
+        display: none;
+    }
+
+    .div-equipe{
+        margin-top: 2vw;
+    }
+
+    .equipe-components{
+        flex-direction: column;
+    }
+
+    .card{
+        margin-bottom: 5vh;
+    }
+
+    .div-desenvolvimento{
+        margin-top: 2vh;
+    }
+
+    .dev-texts{
+        font-size: 4vw;
+        width: 70vw;
+    }
+
+    .desenvolvimento-passo{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .desenvolvimento-passo-text{
+        font-size: 10vw;
+        width: 50vw;
+
+    }
+
+    .descri{
+        display: none;
+    }
+
+    .text-dev{
+        font-size: 4vw;
+    }
+
+    .textdev{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .fotopasso{
+        display: none;
+    }
+
+    .footer{
+        height: 40vh;
+        color: rgb(213, 213, 213);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .senailogo{
+        width: 40vw;
+    }
+    
+    .logomiathoriginal{
+        width: 20vw;
+    }
+}

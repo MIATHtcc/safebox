@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800&display=swap');
+
+body{
+    font-family: Poppins,sans-serif;
+}
+
+.logoMiath{
+    width: 4vw;
+    margin-right: 55vw;
+}
+
+.container-fluid{
+    background-color: #1128F5;
+}
+
+.nav-link{
+    color: aliceblue !important;
+    font-family: Poppins,sans-serif;
+    margin-left: 2vw;
+}
+
+.navbar{
+    background-color: #1128F5 !important;
+    z-index: 1;
+}
+
+
+.cofre{
+    width: 35vw;
+    margin-top: 40vh;
+    transform: rotate(6.96deg);
+    filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.25));
+    animation: flutuacao 20s ease-in-out infinite; 
+}
+
+.tittle-components{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #1128F5;
+    height: 40vh;
+}
+
+.components-tittle{
+    color: aliceblue;
+    font-size: 8vw;
+}
+
+.components-subtittle{
+    color: aliceblue;
+}
+
+.div-projeto{
+    margin-top: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tittles{
+    color: #1128F5;
+    font-weight: 600;
+    margin-bottom: 5vw;
+}
+
+.projeto-texts{
+    margin-left: 5vw;
+    width: 40vw;
+}
+
+.projeto-components{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-projeto{
+    width: 30vw;
+    border-radius: 10px;
+}
+
+@keyframes flutuacao {
+    0%,100%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-50px);
+    }
+}
+
+.div-equipe{
+    margin-top: 10vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.equipe-components{
+    display: flex;
+}
+
+
+.subtittle{
+    font-size: 1vw;
+}
+
+.card-img-top{
+    margin-top: 2vh;
+    width: 7vw !important;
+}
+
+.card{
+    margin-left: 5vw;
+    display: flex !important;
+    align-items: center;
+}
+
+.btn-color-blue{
+    background: linear-gradient(#1128F5, #1d2a9d);
+    border: #1128F5;
+}
+
+.btn-color-blue:hover{
+    background-color: #009906;
+}
+
+.div-materiais{
+    display: flex;
+    margin-top: 20vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-desenvolvimento{
+    display: flex;
+    margin-top: 40vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.desenvolvimento-passo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 5vh;
+}
+
+.desenvolvimento-passo-text{
+    color: #1128F5;
+    width: 2vw;
+    font-weight: 600;
+    margin-right: 15vw;
+}
+
+.projeto-texts{
+    margin-bottom: 20vh;
+}
+
+.fotopasso{
+    width: 25vw;
+    height: 50vh;
+    border-radius: 15px;
+    margin-right: 5vw;
+}
+
+.projeto-texts{
+    font-size: 1.5vw;
+    width: 30vw;
+}
+
+.safeboxtittle{
+    color: #1128F5;
+    font-weight: 600;
+}
+
+.element1{
+    position: absolute;
+    margin-right: 45vw;
+    width: 50vw;
+    animation: flutuacao 10s ease-in-out infinite; 
+}
+
+.elemtn2{
+    position: absolute;
+    margin-top: 50vh;
+    transform: rotate(10deg);
+    width: 20vw;
+    margin-left: 50vw;
+    animation: flutuacao 10s ease-in-out infinite; 
+}
+
+.miathconte{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 40vw;
+    margin-top: 10vh;
+    margin-left: 30vw;
+}
+
+.textmiath{
+    font-size: 1.2vw;
+    text-align: justify;
+}
+
+
+.dev-texts{
+    width: 60vw;
+    margin-bottom: 10vh;
+    font-size:1.4vw;
+}
+
+.text-dev{
+    color: #1128F5;
+    font-weight: 600;
+    font-size: 1.3vw;
+}
+
+.descri{
+    margin-top: 3vw;
+    width: 20vw;
+    text-align: justify;
+}
+
+.footer{
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin-top: 10vw;
+    background-color: #1128F5;
+    height: 50vh;
+}
+
+.senailogo{
+    margin-top: 3vh;
+    width: 10vw;
+    margin-bottom: 2vh;
+}
+
+.logomiathoriginal{
+    margin-top: 3vh;
+    width: 10vw;
+    margin-bottom: 2vh;
+}
+
